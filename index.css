@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("./asset/gradient-bg.jpg");
+  }
+
+  .logo{
+    color: grey;
+    height: 100%;
+    cursor: pointer;
+    font-family: 'Dancing Script';
+    text-align: center;
+}
+  
+  .tab {
+    padding: 1px;
+    background-color: white;
+    border-bottom: 3px solid rgb(239 238 238);
+   width: 100%;
+   
+  }
+
+  .navbar{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    
+  }
+
+  .hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 5rem;
+    margin: 4rem auto;
+    padding: 0 1rem;
+}
+
+
+
+.hero-section-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 500px;
+}
+
+.hero-section-heading{
+    font-size: 35px;
+    color: #b7c1f0;
+    font-weight: 500;
+}
+
+.role{
+    color: rgb(69, 165, 213);
+    font-weight: 800;
+}
+.hero-secton-sub-heading{
+    font-size: 45px;
+    line-height: 45px;
+}
+
+div a{
+  text-decoration: none;
+  color: white;
+  background-color: #007663;
+  padding: 12px;
+  font: 16px;
+  border-radius: 10px;
+  font-family: Montserrat, sans-serif;
+}
+.hero-section-right{
+  position: relative;
+}
+  .marriage{
+    height: auto;
+    object-fit: cover;
+  }
+  
+  #container {
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    /* background-color: darkslategrey; */
+  }
+
+  #chooseBtn {
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  #imageModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  #modalContent {
+    max-width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+  }
+
+  #selectedImage {
+    max-width: 100%;
+    max-height: 400px;
+    margin-bottom: 10px;
+  }
+
+  .modeBtn {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+
+  .closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  #useThisPicBtn {
+    position: absolute;
+    top: 60px; /* Adjust the top position */
+    right: 10px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  
